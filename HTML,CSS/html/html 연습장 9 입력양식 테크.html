@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form name = 'fname' action = 'sign.jsp' method = 'post'>
+          <!-- 노출이 되도 가능한,검색엔진경우에 get방식-->
+            <label for ='name'>이름</label>     <!-- 이름이 뜨는 형태로-->
+            <input type ='text' id='name' name='name' value='heum' size='20'><br>
+                                                <!-- value는 기본값을 뜨는거-->
+            <select id='food' name = 'food' multiple>       <!-- 드랍 박스-->
+                <optgroup label = '음식'>   <!-- 그룹핑한거-->
+
+                    <option value = 'pizza' selected>피자</option>
+                    <option value = 'hamburger' selected>햄버거</option>
+                    <option value = 'pasta' selected>파스타</option>
+                </optgroup>
+
+                <optgroup label = '후식'>
+
+                    <option value = 'cola' selected>콜라</option>
+                    <option value = 'coffee' selected>커피</option>
+                    <option value = 'icecream' selected>아이스크림</option>
+                </optgroup>
+            </select>          <!-- 드랍 박스-->
+            <br><!-- 긴 문자들 넣을때-->
+            <textarea name = 'article' rows='20', cols ='40'>텍스트같은 긴 문자들</textarea>
+            <br><!-- 버튼 클릭할때--><!-- 전송시키는 역할--><!--action에 sign.jsp로 넘어가는데 저 파일이 없으니까 일어나는 에러-->
+            <button>button</button>
+            <fieldset>  <!-- 테두리가 생김-->
+                <legend>개인정보</legend>   <!-- 레전드 정보를 띄우기, 테두리 제목 띄우기-->
+                
+                <label for ='name'>이름:</label><br>
+                <input type = 'text' id='name' name = 'name' value = 'heum'><br>    <!--박스에 기본설정-->
+              
+                <label for ='affiliation'>소속:</label><br>
+                <input type ='text' id = affiliation' name = 'affilation' value = 'heumLab'><br><br>
+              
+                <input type = 'submit' value = '전송'>  <!--sign.jsp로 연결이 되게-->
+            </fieldset>
+            
+            <input list = 'browsers'>
+            <datalist id = 'browsers'>  <!-- 자동연결 기능-->
+                <option value = 'Chrome'></option>
+                <option value = 'Firefox'></option>
+                <option value = 'Internet Explorer'></option>
+                <option value = 'Opera'></option>
+                <option value = 'Safari'></option>
+            
+            </datalist>
+        </form>
+        <br>
+        <br>
+        
+
+        <form oninput = 'r.value=parseInt(x.value) * parseInt(y.value)'>
+            <input type = 'number' id='x' name = 'x' value = '10'>
+            *
+            <input type = 'number' id = 'y' name = 'y' value = '20'>
+            =
+            <output name = 'r' for ='x y'></output>
+            <br><br>
+            <input type ='submit'>
+        </form>
+    </body>
+</html>
