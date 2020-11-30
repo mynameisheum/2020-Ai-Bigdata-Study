@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+                background-color: orange;
+                width: 200px;
+                height: 200px;
+                }
+            p {
+                font-size: large;
+                font-weight: bold;
+                border: 1px solid black;    
+                }
+                /* 공통된 div랑 p에 속성을 지정*/
+
+
+                /*div에 박스지정해줬잖아 그것도 고려하자*/
+            div#box0 {
+                display: block;     /* block형태로*/
+                margin: 40px;   /* 밖 여백을 40px씩 주자*/
+            }
+            div#box1 {
+                margin: 40px;
+                border: 5px solid black;  /*테두리를 5px로*/
+                                            /* 박스의 크기는 같은데 border가 영향을줘*/
+            } 
+            div#box2 {
+                margin: 40px;           /*마찬가지로 밖 여백 40px*/
+                border: 5px solid black;
+                padding: 100px;         /* 안 여백인 padding을 100px로 주자*/
+            }
+            div#box3 {
+                margin: 400px 100px 400px 100px;    /* top right down lef순으로 밖 여백을 엄청크게준거지*/
+                                                    /*margin-top 으로도 지정 가능*/
+                border: 5px solid black;
+                padding: 10px;
+            }
+            div#box4 {
+                margin: 40px;
+                border:5px solid black;
+                padding: 400px 100px 400px 100px    /* 박스 안의 여백을 엄청 키운거지*/
+                                                    /* 마찬가지로 padding-top으로도 지정 가능*/
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>div</p>
+        </div>
+        <div id = 'box0'>
+            <p>div#box0</p>
+        </div>
+        <div id= 'box1'>
+            <p>div#box1</p>
+            <p>margin: 40px</p>
+            <p>padding: 0</p>
+        </div>
+        <div id = 'box2'>
+            <p>div#box2</p>
+            <p>margin: 40px</p>
+            <p>border: 5px solid black</p>
+            <p>padding: 30px</p>
+        </div>
+        <div id = 'box3'>
+            <p>div#box3</p>
+            <p>margin:400px 100px 400px 100px</p>
+            <p>border: 5px solid black</p>
+            <p>padding: 100px</p>
+        <div id = 'box4'>
+            <p>div#box4</p>
+            <p>margin:40px</p>
+            <p>border: 5px solid black</p>
+            <p>padding: 400px 100px 400px 100px</p>
+        </div>
+    </body>
+</html>

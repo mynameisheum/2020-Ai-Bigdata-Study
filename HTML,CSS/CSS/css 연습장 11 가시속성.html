@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+                width: 100px;
+                height: 100px;
+                margin: 20px;
+                background-color: skyblue;
+            }
+            .inline {
+                display :inline;        /* 이을려는 두 p테그 둘다 class에 inline을 줘야 완료*/
+            }
+            .block {
+                display :block;
+            }
+            .inline-block {
+                display: inline-block;
+            }
+            .none {
+                display :none;
+            }
+            .hidden {
+                visibility: hidden;
+            }
+            .half-transparent {
+                opacity: 0.5;       /* 반정도 투명도*/
+            }
+            .opacity {
+                opacity: 0;         /*아예 안보이는 투명도*/
+            }
+            .opacity:hover {
+                opacity: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>display</h1>
+        <p class= 'inline'>p inline #1</p>  <!-- p테그는 페러그래프-->
+        <p class= 'inline'>p inline #2</p>  <!-- span테그는 inline형태인데 지금은 block으로 바꾸려고-->
+        
+        <span class='block'>span block #1</span>    <!-- span 이면 무조건 inline인데 class만들어서 block해버렷지-->
+        <span class='block'>span block #2</span>
+        
+        <div class='inline-block'>box1</div>
+        <div class='none'>box2</div>    <!-- none 이란 class 를 만들어서 존재하지 않게 만듬-->
+        <div class='inline-block'>box3</div>    <!-- inline과 block이 결합된 형태-->
+        <hr>
+        <h1>visibility</h1>
+        <div class='visible'>visible</div>
+        <div class='hidden'>hidden</div>    <!-- hidden은 none이랑 다르게 존재하지만 보이지만 않게 함-->
+        <div class='visible'>visible</div>
+        <hr>
+        <h1>opacity</h1>    <!-- 투명도 조절하는거 -->
+        <div class = 'half-transparent'>opacity: 0.5</div>  <!--반만 투명-->
+        <div class= 'opacity'>opacity: 0</div>  <!-- 투명도0으로 기본설정해서 아예 안보이게하고-->
+    </body>                                     <!-- :hover를 설정해서 커서 가져다 대면 opacity:1;로 설정해서 보이게 함-->
+</html>

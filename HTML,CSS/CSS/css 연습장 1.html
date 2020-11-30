@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /*p 테크할땐 그냥 {}열기*/
+            p{
+                background-color: yellow
+            }
+            /*아이디만 할땐 # 붙이기*/
+            #id1{
+                color:yellow;
+                background-color: black;
+            }
+            /* 클래스만 할땐 . 붙이기*/
+            .class1 { 
+                color : blue;
+                background-color: yellow;
+            }
+            /* p테크 안에 들어가 있는 class1만 */
+            p.class1{
+                color:red;
+                background-color: navy;
+            }
+            h1 { 
+                color:green;
+            }
+            /*h1안의 특정 속성을 선택할때[]열기*/
+            h1[text] {
+                color: purple;
+            }
+            /* type이라는 속성의 값이 password라고 저장되어잇을때*/
+            input[type = 'password'] {
+                background:yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <p>p</p>
+        <p id = 'id1'>id1</p>
+        <p class='class1'>class1인 p</p>
+            <!-- p.class1이 .class1을 잡아먹었네-->
+        <p class = 'class2'>class2인 p</p>
+        <h1>h1</h1>
+        <h1 text = 'h1_text'>text 속성 h1</h1>
+            <!--h1에 text란 속성을 설정해준거지-->
+        <form>
+            <input type = 'password'>
+        </form>
+    </body>
+</html>

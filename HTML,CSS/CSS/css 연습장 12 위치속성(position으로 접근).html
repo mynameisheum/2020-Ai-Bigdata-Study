@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>     /*위치 속성을 position으로 확인해볼거야*/
+            div {
+                width: 150px;
+                height: 150px;
+                font-size:xx-large;
+                font-weight:bold;
+                background-color: lightgray;
+                border: 1px solid black;
+            }
+            div.static {
+                position: static;   /*고정된 형태로 static하게*/
+            }
+            div.relative {
+                position: relative;     
+                top:20px;
+                lef:20px;
+            }
+            div.fixed {
+                position: fixed;    /*스크롤바를 옮겨도 딱 달라붙게해놓음*/
+                bottom: 0;
+                right: 0;
+            }
+            div.absolute {
+                position: absolute;     /* 강제적으로 넣을수 있대 fixed박스도 가려버리네*/
+                right: 0;
+                top: 100px;
+            }
+            p {
+                font-size: xx-large;
+                font-weight: bold;
+                color: gray;    /* 칸을 좀 띄우는 역할이니까 gray로 잘 안보이게*/
+            }
+            p.sticky {
+                background-color: lightblue;    /*스크롤 내려도 상단에 고정*/
+                position: sticky;                   /*긴 내용을 보더라고 메뉴를 고정시키므로 편하게 like 뉴트끼*/ 
+                top: 0; 
+            }
+        </style>
+    </head>
+    <body>
+        <div class = 'static'>static</div>
+        <div class = 'relative'>relative</div>
+        <div class = 'fixed'>fixed</div>
+        <div class = 'absolute'>absolute</div>
+        <br>
+        <p class= 'sticky'>sticky</p>
+        <p>position example</p>
+        <p>position example</p>
+        <p>position example</p>
+        <p>position example</p>
+        <p>position example</p>
+        <p>position example</p>
+        <p>position example</p>
+        <p>position example</p>
+        <p>position example</p>
+        <p>position example</p>
+        <p>position example</p>
+        <p>position example</p>
+        <p>position example</p>
+        <p>position example</p>
+        <p>position example</p>
+        <p>position example</p>
+        <p>position example</p>
+     
+    </body>
+
+</html>

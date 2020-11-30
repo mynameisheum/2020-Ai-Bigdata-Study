@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* input 용도임*/
+            /* enabled일때 disabled일때 focus일때, 보통은 enabled임*/
+            input:enabled {background-color: red;}
+            input:disabled {background-color: blue;}    /*눌러도 활성화 되지않고 blue 유지/*/
+            input:focus {background-color: yellow;}      /* 커서 가져다 대면 노랑색으로 바뀜*/
+        </style>
+    </head>
+    <body>
+        <input>
+        <input disabled = 'disabled'>
+        <input>
+    </body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <head>
+        <style>/*text관련은 :: 2개붙여줘야함*/
+            div::first-letter {font-size: 30px;}    /*첫번째 단어에 대해서 30px로 키워줘*/
+            div::first-line {color : royalblue;}    /*3줄중에 1줄만 royalblue로*/
+            div::selection {background-color: yellow; color:red;}   /*드래그할때 바뀌는 색*/
+        </style>
+    </head>
+    <body>
+        <div>
+            박성흠 짱짱 123<br>
+            강원대<br>
+            물리학과
+        </div>
+    </body>
+</html>

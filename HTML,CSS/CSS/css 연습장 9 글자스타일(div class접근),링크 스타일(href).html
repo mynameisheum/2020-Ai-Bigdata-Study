@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .large{
+                font-size: large;
+            }
+            .small {
+                font-size: small;
+            }
+            .size30 {
+                font-size: 30px;
+            }
+            .center {
+                text-align: center;
+            }
+            .right {
+                text-align: right;
+            }
+            .roman {
+                font-family: 'Times New Roman', sans-serif; /*만약 앞에 1차 폰트가 없으면 ,로 2차 폰트지정가능*/
+            }
+            .bold {
+                font-weight: bold;
+            }
+            .italic {
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <p class='large'>font-size: large</p>
+        <p class='small'>font-size: small</p>
+        <p class='size30'>font-size: 30px</p>
+        <p class='roman'>font-family: 'times new roman'</p>
+        <p class='center bold'>center bold</p>
+        <p class='right italic'>right italic</p>
+    </body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <head>
+        <style>/* 링크 스타일 만들어 볼게에*/
+                /* 그래서 div 스타일을 지정해볼게에*/
+            div {text-align: center;}
+            a {font-size: xx-large;margin: 10px}
+
+            a#link_1:link { color :darkblue; }
+            a#link_1:visited { color : orange;}
+            a#link_1:hover { color : cornflowerblue;}
+                                                                        /* 링크일때는 언더바가 기본설정*/
+            a#link_2 { color : darkgreen; text-decoration:  none;}  /* 언더바가 기본설정값이고 none으로 없앨수 있따*/
+            a#link_2:hover { color : limegreen; text-decoration: underline;}    /* 없앤 언더바를 커서 갖다 댈때는 다시 생기게 하는거지*/
+            a#link_2:active { background-color: black;}
+
+            a#link_3:hover, a#link_3:active { background-color: gray;}
+
+            a#link_4:link, a#link_4:visited { 
+                border: 3px solid forestgreen;
+                color:black;
+                background-color: white;
+                padding: 10px;
+                text-decoration:none;}
+            a#link_4:hover, a#link_4:active {
+                background-color: forestgreen;
+                color : black;
+            }
+            button { background-color: black; color:white; padding: 5px;}
+            button:hover { color:red}
+        </style>
+    </head>
+    <body>
+        <div>
+            <a id='link_1' href = 'http://www.google.com'>first link</a><br><br>
+            <a id='link_2' href = 'http://www.google.com'>second link</a><br><br>
+            <a id='link_3' href = 'http://www.google.com'>third link</a><br><br>
+            <a id='link_4' href = 'http://www.google.com'>fourth link</a><br><br>
+            <button onclick="location.href = 'http://www.google.com'">Button Link</button>
+            <!-- 하나는 버튼 형식으로,onclick 자바스크립트로 로케이션에 위치를 바꿔주는걸로-->
+        </div>    
+    </body>
+</html>
