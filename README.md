@@ -16,5 +16,8 @@
 ### 2020 강원 빅데이터 포럼 - 우수 작품 포스터 선정
 -![figure3](https://github.com/mynameisheum/2020-Ai-Bigdata-Training-course/blob/main/2020-%EA%B0%95%EC%9B%90%20%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%8F%AC%EB%9F%BC%20%EC%9A%B0%EC%88%98%ED%95%99%EC%83%9D%20%EC%84%A0%EC%A0%95%20%ED%8F%AC%EC%8A%A4%ED%84%B0.png?raw=true)
 
+### 'Embedding 및 LSTM을 통한 댓글 분석'
+-![figure4](https://github.com/mynameisheum/2020-Ai-Bigdata-Training-course/blob/main/2020%EA%B0%95%EC%9B%90%20%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%8F%AC%EC%8A%A4%ED%84%B0-%EB%B0%95%EC%84%B1%ED%9D%A0.png?raw=true)
+
 ### 수료증
 -![figure1](https://github.com/mynameisheum/2020-Ai-Bigdata-Training-course/blob/main/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%88%98%EB%A3%8C%EC%A6%9D.png?raw=true)
