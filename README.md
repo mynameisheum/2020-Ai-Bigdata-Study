@@ -10,3 +10,5 @@
 - machine learning의 큰 틀을 볼수 있었음
 - 비 전공자로써 조그만한 부분의 part만 알고 있었는데 최근 입에 오르는 ai, big data라는 포괄적인 개념을 전체적으로 다 훑어볼수 있어 전체적인 틀을 알수 있었음.
 
+### 수료증
+-![xps ex1](https://github.com/mynameisheum/2020_Peak_fitting/blob/main/make%20Train%20data%20code/ex_picture_storage/xps%20ex.png?raw=true)
