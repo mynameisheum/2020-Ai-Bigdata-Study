@@ -11,4 +11,5 @@
 - 비 전공자로써 조그만한 부분의 part만 알고 있었는데 최근 입에 오르는 ai, big data라는 포괄적인 개념을 전체적으로 다 훑어볼수 있어 전체적인 틀을 알수 있었음.
 
 ### 수료증
--![xps ex1](https://github.com/mynameisheum/2020_Peak_fitting/blob/main/make%20Train%20data%20code/ex_picture_storage/xps%20ex.png?raw=true)
+-![xps ex1](https://github.com/mynameisheum/2020-Ai-Bigdata-Training-course/blob/main/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%20%EC%88%98%EB%A3%8C%EC%A6%9D.pdf)
+
